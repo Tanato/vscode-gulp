@@ -2,7 +2,7 @@
 
 ## Installation
 
-Just type `cmd+p`/`ctrl+p` to bring up the command pallete and pick `>Extension Installer` from the dropdown, type `gulp` and select the extension, restart VSCode and you are all set.
+Type `cmd+p`/`ctrl+p` to bring up the command pallete and pick `>ext install` from the dropdown, type `gulp` and select the extension, restart VSCode and you are all set.
 
 ## Snippets
 

@@ -2,8 +2,8 @@
     "name": "vscode-gulp",
     "displayName": "Gulp Snippets",
     "description": "Gulp JS Snippets for Visual Studio Code",
-    "version": "0.0.1",
-    "publisher": "Tanato Cartaxo",
+    "version": "0.0.2",
+    "publisher": "tanato",
     "icon": "images/gulp-2x.png",
     "galleryBanner": {
         "color": "#cf4646",
