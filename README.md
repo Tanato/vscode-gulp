@@ -24,7 +24,14 @@ gulp.src('scriptFiles')
 
 #### gulptask - [Docs](https://github.com/gulpjs/gulp/blob/master/docs/API.md#gulptaskname-deps-fn)
 ```
-gulp.task('name',['tasks'], function() {
+gulp.task('name', function() {
+    // content
+});
+```
+
+#### gulptaskdep - [Docs](https://github.com/gulpjs/gulp/blob/master/docs/API.md#gulptaskname-deps-fn)
+```
+gulp.task('name', ['tasks'], function() {
     // content
 });
 ```
@@ -43,6 +50,15 @@ gulp.watch('file', ['tasks']);
 ```
 gulp.watch('file', function(event) {
   console.log(' File '+event.path+' was '+event.type+', running tasks...');
+});
+```
+
+#### gulptaskfull
+```
+gulp.task('name',['tasks'], function() {
+    gulp.src('files')
+        .pipe(plugin())
+        .pipe(gulp.dest('folder'));
 });
 ```
 
