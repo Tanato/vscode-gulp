@@ -1,0 +1,21 @@
+{
+	"name": "vscode-gulp",
+	"displayName": "Gulp Snippets",
+	"description": "Gulp JS Snippets for Visual Studio Code",
+	"version": "0.0.1",
+	"publisher": "tanato",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}

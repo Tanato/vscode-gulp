@@ -1,0 +1,50 @@
+{
+	"pipe": {
+		"prefix": "pipe",
+		"body": "\n.pipe(${1:name}('${2:}'))\n",
+		"description": "Add a new pipe",
+		"scope": "source.js"
+	},
+    "gulppipe": {
+		"prefix": "gulppipe",
+		"body": "\n.pipe(${1:name}('${2:}'))\n",
+		"description": "Add a new pipe",
+		"scope": "source.js"
+	},
+	"gulpdest": {
+		"prefix": "gulpdest",
+		"body": "\n.pipe(gulp.dest('${1:folder}'));\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"gulpsrc": {
+		"prefix": "gulpsrc",
+		"body": "\ngulp.src('${1:files}')\n  .pipe(${2:name}('${3:}'))\n",
+		"description": "Add new Gulp stream",
+		"scope": "source.js"
+	},
+	"gulptask": {
+		"prefix": "gulptask",
+		"body": "\ngulp.task('${1:name}',['${2:tasks}'], function() {\n    ${3:// content}\n});\n",
+		"description": "Add new Gulp task",
+		"scope": "source.js"
+	},
+	"gulpwatch": {
+		"prefix": "gulpwatch",
+		"body": "\ngulp.watch('${1:files}', ['${2:tasks}']);\n",
+		"description": "Add new Gulp watch",
+		"scope": "source.js"
+	},
+	"gulpwcb": {
+		"prefix": "gulpwcb",
+		"body": "\ngulp.watch(${1:'file'}, function(event) {\n  console.log('${2:File} '+event.path+' ${3:was} '+event.type+', ${4:running tasks...}');\n});\n",
+		"description": "Add new Gulp watch ",
+		"scope": "source.js"
+	},
+	"gulpvar": {
+		"prefix": "gulpvar",
+		"body": "\nvar ${1:plugin} = require('gulp-${2:name}');\n",
+		"description": "Add new gulp require var",
+		"scope": "source.js"
+	}
+}
