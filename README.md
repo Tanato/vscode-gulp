@@ -1,16 +1,8 @@
-# Gulp - VS Code
-
-## Quickstart
-
-1. Install Via [Package Control] `vscode-gulp`
-2. Open your repo containing either a `gulpfile.js` file or directory
+# [Gulp - VS Code](https://github.com/Tanato/vscode-gulp)
 
 ## Installation
 
-### via PackageControl
-If you have [PackageControl](http://wbond.net/sublime_packages/package_control) installed, you can use it to install the package.
-
-Just type `cmd-shift-p`/`ctrl-shift-p` to bring up the command pallete and pick `Package Control: Install Package` from the dropdown, search and select the package there and you're all set.
+Just type `cmd+p`/`ctrl+p` to bring up the command pallete and pick `>Extension Installer` from the dropdown, type `gulp` and select the extension, restart VSCode and you are all set.
 
 ## Snippets
 
@@ -53,4 +45,5 @@ gulp.watch('file', function(event) {
   console.log(' File '+event.path+' was '+event.type+', running tasks...');
 });
 ```
+
 ** Enjoy!**
